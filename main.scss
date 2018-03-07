@@ -424,13 +424,20 @@ iframe:hover {
 }
 
 
-#about{
-    display: none;
+.buttonclick{
+    background-color: black;
+    color: white;
+    font-family: $font-inline;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 15px;
 }
 
-#about.visible{
-    display: block;
-}
-.s-ext{
+
+.moreinfo{
     display: none;
+      width: 60%;
+    margin-left: 20%;
+    margin-bottom: 60px;
 }

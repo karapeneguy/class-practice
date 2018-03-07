@@ -1,16 +1,23 @@
-$(document).ready(function(){
-    alert("working?");
-     if ($(".about").slideToggle("visible")) {
-        $(".show").html("Show Less");
-    } else {
-        $(".show").html("Show More");
-    }
-    
+var hide = "Less Information";
+var show = "History";
 
-    $(".buttonabout").click(function(){
-        alert("working!");
-        //$(this).next().slideToggle();
-    }
-     
+
+
+$(document).ready(function () {
    
-});
+    
+    $(".buttonclick").click(function () {
+        $(this).next().slideToggle();
+        $(this).next().next().slideToggle();
+
+        $(this).toggleClass("open");
+
+        if ($(this).hasClass("open")) {
+            $(this).html(hide);
+        } else {
+            $(this).html(show);
+        }
+    });
+    
+     });
+  
