@@ -276,4 +276,24 @@ iframe:hover {
   margin-left: 20%;
   margin-bottom: 60px; }
 
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  width: 10px; }
+
+#mydivheader {
+  padding: 10px;
+  margin-top: 50px;
+  cursor: move;
+  z-index: 10; }
+  #mydivheader .paint {
+    height: 200px; }
+
+.painting {
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 19%;
+  margin-left: 10px;
+  font-family: "Bungee Inline", cursive; }
+
 /*# sourceMappingURL=main.css.map */

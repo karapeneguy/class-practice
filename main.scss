@@ -1,6 +1,8 @@
 $font-shade:'Bungee Shade', cursive;
 $font-outline: 'Bungee Outline', cursive;
 $font-inline: 'Bungee Inline', cursive;
+$smaller-margin: 5.95vw;
+$larger-margin: 8.25vw;
     
     
     body {
@@ -133,7 +135,7 @@ li:hover {
 
 #pantone1 {
     background-color: rgb(233, 89, 133);
-    margin-left: 5.95vw;
+    margin-left: $smaller-margin;
 }
 
 
@@ -162,14 +164,14 @@ li:hover {
 
 #pantone6 {
     background-color: rgb(120, 67, 132);
-    margin-right: 8.25vw;
+    margin-right: $larger-margin;
 
 }
 
 
 #pantone71 {
     background-color: rgb(103, 98, 50);
-    margin-left: 5.95vw;
+    margin-left: $smaller-margin;
 }
 
 #pantone72 {
@@ -195,14 +197,14 @@ li:hover {
 
 #pantone76 {
     background-color: rgb(24, 87, 108);
-    margin-right: 8.25vw;
+    margin-right: $larger-margin;
 
 }
 
 
 #pantone81 {
     background-color: rgb(188, 164, 203);
-    margin-left: 5.95vw;
+    margin-left: $smaller-margin;
 }
 
 #pantone82 {
@@ -228,13 +230,13 @@ li:hover {
 
 #pantone86 {
     background-color: rgb(192, 66, 138);
-    margin-right: 8.25vw;
+    margin-right: $larger-margin;
 
 }
 
 #pantone91 {
     background-color: rgb(195, 189, 171);
-    margin-left: 5.95vw;
+    margin-left: $smaller-margin;
 }
 
 #pantone92 {
@@ -266,7 +268,7 @@ li:hover {
 
 #pantone21 {
     background-color: rgb(155, 183, 212);
-    margin-left: 5.95vw;
+    margin-left: $smaller-margin;
 }
 
 #pantone22 {
@@ -292,7 +294,7 @@ li:hover {
 
 #pantone26 {
     background-color: rgb(126, 155, 118);
-    margin-right: 8.25vw;
+    margin-right: $larger-margin;
 
 }
 
@@ -440,4 +442,32 @@ iframe:hover {
       width: 60%;
     margin-left: 20%;
     margin-bottom: 60px;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    width: 10px;
+    
+}
+
+#mydivheader {
+    padding: 10px;
+    margin-top: 50px;
+    cursor: move;
+    z-index: 10;
+    .paint{
+    height: 200px;
+}
+   
+    
+}
+
+
+.painting{
+    font-size: 30px;
+  background: rgba(255,255,255,.6);
+    width: 19%;
+    margin-left: 10px;
+    font-family: $font-inline;
 }
