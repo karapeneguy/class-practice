@@ -1,0 +1,273 @@
+body {
+  margin: 0; }
+
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50pt;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center; }
+
+h2 {
+  font-family: "Bungee Inline", cursive;
+  font-size: 35pt;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center; }
+
+.home {
+  background-image: url(Images/artpink.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  width: 99.6%;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0.2%;
+  padding-right: 0.2%;
+  overflow: hidden;
+  background-color: black; }
+
+li {
+  float: left;
+  font-family: "Bungee Outline", cursive;
+  color: white;
+  font-size: 30pt;
+  border-right: 1px solid white;
+  padding: 1%;
+  width: 14.6%;
+  min-width: 200px; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%; }
+
+li:last-child {
+  border-right: none; }
+
+li:hover {
+  background-color: #111;
+  font-size: 40pt; }
+
+.whitebox {
+  width: 10000px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-content: center; }
+
+.pantone {
+  width: 12vw;
+  height: 18vw;
+  border: 2px solid black;
+  margin-left: 2.1vw;
+  display: inline-block; }
+
+.pantone:hover {
+  border: 3px solid black; }
+
+.pantonedescription {
+  background-color: white;
+  padding: .6vw;
+  height: 4.8vw;
+  margin-top: 12vw; }
+
+#pantone1 {
+  background-color: #e95985;
+  margin-left: 5.95vw; }
+
+#pantone2 {
+  background-color: #f9633b; }
+
+#pantone3 {
+  background-color: #7bb369; }
+
+#pantone4 {
+  background-color: #ffc300; }
+
+#pantone5 {
+  background-color: #14a3c7; }
+
+#pantone6 {
+  background-color: #784384;
+  margin-right: 8.25vw; }
+
+#pantone71 {
+  background-color: #676232;
+  margin-left: 5.95vw; }
+
+#pantone72 {
+  background-color: #c65d52; }
+
+#pantone73 {
+  background-color: #5d473a; }
+
+#pantone74 {
+  background-color: #b68a3a; }
+
+#pantone75 {
+  background-color: #b55a30; }
+
+#pantone76 {
+  background-color: #18576c;
+  margin-right: 8.25vw; }
+
+#pantone81 {
+  background-color: #bca4cb;
+  margin-left: 5.95vw; }
+
+#pantone82 {
+  background-color: #ad5e99; }
+
+#pantone83 {
+  background-color: #b58299; }
+
+#pantone84 {
+  background-color: #b92636; }
+
+#pantone85 {
+  background-color: #3d428b; }
+
+#pantone86 {
+  background-color: #c0428a;
+  margin-right: 8.25vw; }
+
+#pantone91 {
+  background-color: #c3bdab;
+  margin-left: 5.95vw; }
+
+#pantone92 {
+  background-color: #8a7963; }
+
+#pantone93 {
+  background-color: #a3a04e; }
+
+#pantone94 {
+  background-color: #e4bf45; }
+
+#pantone95 {
+  background-color: #f36944; }
+
+#pantone96 {
+  background-color: #00abc0;
+  margin-right: 8.25vw; }
+
+#pantone21 {
+  background-color: #9bb7d4;
+  margin-left: 5.95vw; }
+
+#pantone22 {
+  background-color: #9b1b30; }
+
+#pantone23 {
+  background-color: #978d89; }
+
+#pantone24 {
+  background-color: #9f99aa; }
+
+#pantone25 {
+  background-color: #f0c05a; }
+
+#pantone26 {
+  background-color: #7e9b76;
+  margin-right: 8.25vw; }
+
+.pattern {
+  width: 13vw;
+  height: 13vw;
+  border: 2px solid black;
+  margin-left: 2.1vw;
+  display: inline-block; }
+
+.imagegallery {
+  display: inline-block;
+  align-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.fashionimagegallery6 {
+  display: inline-block;
+  align-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+.fashionimagegallery {
+  display: inline-block;
+  align-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+#mensfashion60 {
+  height: 655px;
+  padding-left: 10px;
+  width: 600px; }
+
+#womensfashion70s {
+  width: 700px; }
+
+#mensfashion70 {
+  width: 700px;
+  height: 553.92px; }
+
+#womensfashion80 {
+  width: 700px; }
+
+#mensfashion80 {
+  width: 550px;
+  height: 350px;
+  margin-left: 150px; }
+
+#mensfashion90 {
+  width: 650px;
+  margin-left: 30px; }
+
+#womensfashion90 {
+  width: 650px;
+  height: 423.02px;
+  margin-left: 15px; }
+
+#mensfashion20 {
+  width: 700px;
+  height: 488.61px;
+  margin-left: 5px; }
+
+#womensfashion20 {
+  width: 650px;
+  margin-left: 30px; }
+
+.video {
+  width: 60%;
+  margin-bottom: 150px;
+  margin-right: 20%;
+  margin-left: 20%;
+  height: 75vh; }
+
+iframe:hover {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 85vh; }
+
+#about {
+  display: none; }
+
+#about.visible {
+  display: block; }
+
+.s-ext {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
