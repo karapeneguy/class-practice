@@ -21,6 +21,10 @@ $(document).ready(function () {
     
     
     
+    
+    //Below is the code in order to allow the paintbrush to be dragged across the screen. I followed instructions via W3 School. 
+    
+    
     dragElement(document.getElementById(("mydiv")));
 
 function dragElement(elmnt) {
@@ -29,7 +33,6 @@ function dragElement(elmnt) {
     /* if present, the header is where you move the DIV from:*/
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
   } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
     elmnt.onmousedown = dragMouseDown;
   }
 

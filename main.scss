@@ -1,33 +1,30 @@
-$font-shade:'Bungee Shade', cursive;
-$font-outline: 'Bungee Outline', cursive;
-$font-inline: 'Bungee Inline', cursive;
+$font-shade:'Bungee Shade',
+cursive;
+$font-outline: 'Bungee Outline',
+cursive;
+$font-inline: 'Bungee Inline',
+cursive;
 $smaller-margin: 5.95vw;
 $larger-margin: 8.25vw;
-    
-    
-    body {
+
+
+body {
     margin: 0;
 }
 
 
-
 h1 {
-    font-family:$font-shade;
+    font-family: $font-shade;
     font-size: 50pt;
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
-
-
 }
 
 h2 {
-    font-family:$font-inline;
-
+    font-family: $font-inline;
     font-size: 35pt;
     background-color: rgba(255, 255, 255, .5);
     text-align: center;
-
-
 }
 
 
@@ -38,7 +35,6 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .menu {
@@ -53,23 +49,17 @@ h2 {
     padding-right: 0.2%;
     overflow: hidden;
     background-color: black;
-
-
-
-
 }
 
 li {
     float: left;
-    font-family:$font-outline;
+    font-family: $font-outline;
     color: white;
     font-size: 30pt;
     border-right: 1px solid white;
     padding: 1%;
     width: 14.6%;
     min-width: 200px;
-
-
 }
 
 li a {
@@ -88,7 +78,6 @@ li:last-child {
 li:hover {
     background-color: #111;
     font-size: 40pt;
-
 }
 
 
@@ -97,10 +86,8 @@ li:hover {
 .whitebox {
     width: 10000px;
     height: 300px;
-
     background-color: rgba(255, 255, 255, .5);
     align-content: center;
-
 }
 
 
@@ -113,14 +100,10 @@ li:hover {
     border: 2px solid black;
     margin-left: 2.1vw;
     display: inline-block;
-
-
 }
 
 .pantone:hover {
     border: 3px solid black;
-
-
 }
 
 
@@ -130,7 +113,6 @@ li:hover {
     padding: .6vw;
     height: 4.8vw;
     margin-top: 12vw;
-
 }
 
 #pantone1 {
@@ -149,23 +131,19 @@ li:hover {
 
 #pantone3 {
     background-color: rgb(123, 179, 105);
-
 }
 
 #pantone4 {
     background-color: rgb(255, 195, 0);
-
 }
 
 #pantone5 {
     background-color: rgb(20, 163, 199);
-
 }
 
 #pantone6 {
     background-color: rgb(120, 67, 132);
     margin-right: $larger-margin;
-
 }
 
 
@@ -182,23 +160,19 @@ li:hover {
 
 #pantone73 {
     background-color: rgb(93, 71, 58);
-
 }
 
 #pantone74 {
     background-color: rgb(182, 138, 58);
-
 }
 
 #pantone75 {
     background-color: rgb(181, 90, 48);
-
 }
 
 #pantone76 {
     background-color: rgb(24, 87, 108);
     margin-right: $larger-margin;
-
 }
 
 
@@ -215,23 +189,19 @@ li:hover {
 
 #pantone83 {
     background-color: rgb(181, 130, 153);
-
 }
 
 #pantone84 {
     background-color: rgb(185, 38, 54);
-
 }
 
 #pantone85 {
     background-color: rgb(61, 66, 139);
-
 }
 
 #pantone86 {
     background-color: rgb(192, 66, 138);
     margin-right: $larger-margin;
-
 }
 
 #pantone91 {
@@ -247,23 +217,19 @@ li:hover {
 
 #pantone93 {
     background-color: rgb(163, 160, 78);
-
 }
 
 #pantone94 {
     background-color: rgb(228, 191, 69);
-
 }
 
 #pantone95 {
     background-color: rgb(243, 105, 68);
-
 }
 
 #pantone96 {
     background-color: rgb(0, 171, 192);
     margin-right: 8.25vw;
-
 }
 
 #pantone21 {
@@ -279,106 +245,83 @@ li:hover {
 
 #pantone23 {
     background-color: rgb(151, 141, 137);
-
 }
 
 #pantone24 {
     background-color: rgb(159, 153, 170);
-
 }
 
 #pantone25 {
     background-color: rgb(240, 192, 90);
-
 }
 
 #pantone26 {
     background-color: rgb(126, 155, 118);
     margin-right: $larger-margin;
-
 }
 
 
 .pattern {
-
     width: 13vw;
     height: 13vw;
     border: 2px solid black;
     margin-left: 2.1vw;
     display: inline-block;
-
 }
 
 .imagegallery {
-
     display: inline-block;
     align-content: center;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 
 .fashionimagegallery6 {
-
     display: inline-block;
     align-content: center;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-
 }
 
 .fashionimagegallery {
-
     display: inline-block;
     align-content: center;
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-
 }
 
 
 #mensfashion60 {
     height: 655px;
     padding-left: 10px;
-
     width: 600px;
-
 }
 
 
 
 #womensfashion70s {
     width: 700px;
-
-
-
 }
 
 #mensfashion70 {
-
     width: 700px;
     height: 553.92px;
-
 }
 
 
 
 #womensfashion80 {
     width: 700px;
-
-
-
 }
 
 #mensfashion80 {
     width: 550px;
-
     height: 350px;
     margin-left: 150px;
 }
@@ -386,7 +329,6 @@ li:hover {
 #mensfashion90 {
     width: 650px;
     margin-left: 30px;
-
 }
 
 #womensfashion90 {
@@ -399,7 +341,6 @@ li:hover {
     width: 700px;
     height: 488.61px;
     margin-left: 5px;
-
 }
 
 #womensfashion20 {
@@ -414,7 +355,6 @@ li:hover {
     margin-right: 20%;
     margin-left: 20%;
     height: 75vh;
-
 }
 
 
@@ -422,11 +362,11 @@ iframe:hover {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-      height: 85vh;
+    height: 85vh;
 }
 
 
-.buttonclick{
+.buttonclick {
     background-color: black;
     color: white;
     font-family: $font-inline;
@@ -437,9 +377,9 @@ iframe:hover {
 }
 
 
-.moreinfo{
+.moreinfo {
     display: none;
-      width: 60%;
+    width: 60%;
     margin-left: 20%;
     margin-bottom: 60px;
 }
@@ -448,7 +388,6 @@ iframe:hover {
     position: absolute;
     z-index: 9;
     width: 10px;
-    
 }
 
 #mydivheader {
@@ -456,17 +395,16 @@ iframe:hover {
     margin-top: 50px;
     cursor: move;
     z-index: 10;
-    .paint{
-    height: 200px;
-}
-   
     
+    .paint {
+        height: 200px;
+    }
 }
 
 
-.painting{
+.painting {
     font-size: 30px;
-  background: rgba(255,255,255,.6);
+    background: rgba(255, 255, 255, .6);
     width: 19%;
     margin-left: 10px;
     font-family: $font-inline;
