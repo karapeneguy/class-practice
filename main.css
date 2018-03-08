@@ -276,17 +276,17 @@ iframe:hover {
   margin-left: 20%;
   margin-bottom: 60px; }
 
-#mydiv {
+#paintbrush {
   position: absolute;
   z-index: 9;
   width: 10px; }
 
-#mydivheader {
+#paintbrushimg {
   padding: 10px;
   margin-top: 50px;
   cursor: move;
   z-index: 10; }
-  #mydivheader .paint {
+  #paintbrushimg .paint {
     height: 200px; }
 
 .painting {
